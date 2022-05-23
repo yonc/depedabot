@@ -2,7 +2,7 @@ version: 2
 
 updates:
   - package-ecosystem: "npm"
-    directory: "/modules/apps/ip-internet/ip-search/ip-search-web/"
+    directory: "/modules/apps/ip-search/ip-search-web/"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 0

@@ -2,12 +2,11 @@ version: 2
 
 updates:
   - package-ecosystem: "npm"
-    directory: "modules/apps/ip-search/ip-search-web/"
+    directory: "/modules/apps/ip-search/ip-search-web/"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 0
     labels:
-      - devDependencies
-    versioning-strategy: increase
+      - dependencies
     ignore:
       - dependency-name: "glob-parent"
